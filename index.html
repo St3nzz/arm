@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Povestka</title>
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="style/slick.css" />
+    <!-- Bootstrap5 css -->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Main css -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <!------------------
+                                                                
+                                                                        Header
+                                                                
+                                                                ------------------->
+    <header class="header">
+        <nav class="header__nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+                        <ul class="header__nav-list d-flex justify-content-between">
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Документы</a></li>
+                            <li><a href="#">Задать вопрос</a></li>
+                            <li><a href="#">Куда обратиться</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Справочник</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Меню сбоку -->
+        <div class="header__menu">
+            <div class="header__menu-close">
+            </div>
+            <div class="header__menu-img">
+                <a href="#">
+                    <img src="img/header/profile.png" alt="profile">
+                </a>
+            </div>
+            <ul class="header__menu-list">
+                <li><a href="#">Уведомления</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Документы</a></li>
+                <li><a href="#">Задать вопрос</a></li>
+                <li><a href="#">Куда обратиться</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Справочник</a></li>
+            </ul>
+        </div>
+        <!-- Лого + поиск -->
+
+        <div class="header__top">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col">
+                        <a href="#" class="header__top-logo">
+                        </a>
+                    </div>
+                    <div class="col-md-1 header__top-burger">
+                        <!-- Меню в виде бургера -->
+                    </div>
+                    <div
+                        class="col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-5 col-xl-6 offset-xl-0 header__top-input">
+                        <input type="text" placeholder="Поиск по сайту">
+                        <a href="#" class="header__top-search"></a>
+                    </div>
+                    <div class="col-md-1 offset-md-1 d-flex justify-content-end">
+                        <div class="header__notifications">
+                            <a href="#">
+                                <img src="img/header/bell-active.svg" alt="notifications">
+                                <div class="header__notifications-counter">
+                                    12
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-flex justify-content-end">
+                        <div class="header__profile">
+                            <a href="#">
+                                <img src="img/header/profile.svg" alt="profile">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Гланый экран -->
+
+        <div class="header__main">
+            <div class="container">
+                <div class="header__main-inner">
+                    <div class="row">
+                        <div class="col-xl-8 offset-xl-1">
+                            <div class="header__main-title">
+                                <h1>Центр прав призывника</h1>
+                            </div>
+                            <div class="header__main-text">
+                                <p>
+                                    это сервис вопросов и ответов, предназначенный для призывников,
+                                    допризывников, военнообязанных, военнослужащих, альтернативщиков и их близких
+                                </p>
+                            </div>
+                            <div class="header__main-btn default-btn">
+                                Задать вопрос
+                            </div>
+                        </div>
+                        <div class="header__main-man"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Особенности -->
+
+        <div class="header__features">
+            <div class="container">
+                <div class="header__features-items">
+                    <div class="row justify-content-between">
+                        <div class="col-sm-4">
+                            <div class="header__features-item">
+                                <img src="img/features/User.svg" alt="user">
+                                <h3>550.000</h3>
+                                <p>посетителей в год</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="header__features-item header__features-second">
+                                <img src="img/features/Server.svg" alt="server">
+                                <h3>5.000</h3>
+                                <p>ответов в год</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="header__features-item">
+                                <img src="img/features/location.svg" alt="location">
+                                <h3>7 лет</h3>
+                                <p>работает для вас</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!------------------
+                                                                
+                                                                    Conscription
+                                                                
+                                                                ------------------->
+    <section class="conscription">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-xl-4 offset-xl-1">
+                    <div class="conscription__text">
+                        <div class="conscription__text-title">
+                            <h1>Идёт призыв</h1>
+                        </div>
+                        <p>дней осталось</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xl-4 offset-xl-1">
+                    <div class="conscription__counter">
+                        <div class="conscription__counter-number">
+                            067
+                        </div>
+
+                        <!-- Маленький круг -->
+
+                        <svg class="progress__ring" width="300" height="300">
+                            <!-- Градиент для круга со счётчиком -->
+                            <defs>
+                                <filter id="inset-shadow">
+                                    <feFlood flood-color="#005900" />
+                                    <feComposite operator="out" in2="SourceGraphic" />
+                                    <feGaussianBlur stdDeviation="7" />
+                                    <feComposite operator="atop" in2="SourceGraphic" />
+                                </filter>
+                            </defs>
+                            <circle class="progress__ring-outline" stroke="#EAF7E6" stroke-width="24" cx="150" cy="150"
+                                r="126" fill="transparent" />
+                            <circle class="progress__ring-circle" stroke="#2CAB00" filter="url(#inset-shadow)"
+                                stroke-linecap="round" stroke-width="24" cx="150" cy="150" r="126" fill="transparent" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------
+                                                                
+                                                                      Advantages
+                                                                
+                                                                ------------------->
+    <section class="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2">
+                    <div class="advantages__title">
+                        <h3>
+                            Белорусские призывники зачастую не знают своих прав,
+                            чем могут пользоваться военкоматы.
+                            Мы помогаем молодым людям заполнить эти пробелы на волонтёрских началах
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="advantages__items">
+                <div class="row advantages__slider">
+                    <div class="col-md-4 offset-md-2 col-xl-3 offset-xl-0">
+                        <div class="advantages__items-item">
+                            <div class="advantages__items-img">
+                                <img src="img/advantages/news.png" alt="message">
+                            </div>
+                            <p>Публикуем актуальные новости и аналитику</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offset-md-0 col-xl-3 offset-xl-0">
+                        <div class="advantages__items-item">
+                            <div class="advantages__items-img">
+                                <img src="img/advantages/questions.png" alt="questions">
+                            </div>
+                            <p>Отвечаем на вопросы</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offset-md-2 col-xl-3 offset-xl-0">
+                        <div class="advantages__items-item">
+                            <div class="advantages__items-img">
+                                <img src="img/advantages/files.png" alt="files">
+                            </div>
+                            <p>Размещаем полезные документы</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offset-md-0 col-xl-3 offset-xl-0">
+                        <div class="advantages__items-item">
+                            <div class="advantages__items-img">
+                                <img src="img/advantages/messages.png" alt="files">
+                            </div>
+                            <p>Консультируем в соц. сетях</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------
+                                                                
+                                                                        Help
+                                                                
+                                                                ------------------->
+
+    <section class="help">
+        <div class="container">
+            <div class="help__title">
+                <h2>Как получить помощь</h2>
+            </div>
+            <div class="help__content">
+                <div class="row">
+                    <div class="col-md-12 col-xl-6">
+
+                        <!-- Для пк -->
+
+                        <div class="help__content-points">
+                            <div class="help__content-point">
+                                <div class="help__content-img">
+                                    <img src="img/help/help-user.svg" alt="help-user">
+                                </div>
+                                <div class="help__content-title">
+                                    <h3>Зарегистрируйтесь на сайте(подтвердите e-mail и телефон)</h3>
+                                </div>
+                            </div>
+                            <div class="help__content-point">
+                                <div class="help__content-img">
+                                    <img src="img/help/help-search.svg" alt="help-search">
+                                </div>
+                                <div class="help__content-title">
+                                    <h3>Воспользуйтесь поиском (на сайте более 8000 ответов на вопросы)</h3>
+                                </div>
+                            </div>
+                            <div class="help__content-point">
+                                <div class="help__content-img">
+                                    <img src="img/help/help-question.svg" alt="help-question">
+                                </div>
+                                <div class="help__content-title">
+                                    <h3>Задайте вопрос на сайте (ответ в течение суток)</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Для телефонов -->
+
+                        <div class="help__content-points__small">
+                            <div class="help__content-point">
+                                <div class="help__content-img">
+                                    <img src="img/help/help-user.svg" alt="help-user">
+                                </div>
+                                <div class="help__content-title">
+                                    <h3>Зарегистрируйтесь на сайте(подтвердите e-mail и телефон)</h3>
+                                </div>
+                            </div>
+                            <div class="help__content-point">
+                                <div class="help__content-title">
+                                    <h3>Воспользуйтесь поиском (на сайте более 8000 ответов на вопросы)</h3>
+                                </div>
+                                <div class="help__content-img">
+                                    <img src="img/help/help-search.svg" alt="help-search">
+                                </div>
+                            </div>
+                            <div class="help__content-point">
+                                <div class="help__content-img">
+                                    <img src="img/help/help-question.svg" alt="help-question">
+                                </div>
+                                <div class="help__content-title">
+                                    <h3>Задайте вопрос на сайте (ответ в течение суток)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 offset-xl-1">
+                        <div class="help__content-btn default-btn">
+                            Задать вопрос
+                        </div>
+                    </div>
+                    <div class="help__content-man">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------
+                                                                
+                                                                        Blog
+                                                                
+                                                                ------------------->
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+
+                <!-- Пожертвования -->
+
+                <div class="col-lg-8 offset-lg-2 col-xl-5 offset-xl-0">
+                    <a href="#">
+                        <div class="blog__donations">
+                            <img src="img/blog/donations.jpg" alt="donations">
+                            <div class="blog__donations-title">
+                                <h3>
+                                    Наш сайт работает благодаря Вашей поддержке!
+                                </h3>
+                            </div>
+                            <p>
+                                Центр прав призывника начинает кампанию по сбору
+                                средств для поддержания работы сайта на следующий год.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Статьи -->
+
+                <div class="col-lg-8 offset-lg-2 col-xl-6 offset-xl-1">
+                    <div class="blog__articles">
+                        <a href="#">
+                            <div class="blog__article">
+                                <div class="blog__article-img">
+                                    <img src="img/blog/blog-article-1.jpg" alt="article">
+                                </div>
+                                <div class="blog__article-title">
+                                    Минобороны планирует призвать тысячу запасников
+                                </div>
+                                <div class="blog__article-date">
+                                    9 марта 2021
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="blog__article">
+                                <div class="blog__article-img">
+                                    <img src="img/blog/blog-article-2.jpg" alt="article">
+                                </div>
+                                <div class="blog__article-title">
+                                    Аналітыка Шрайбмана і палітоляга Сівіцкага забралі ў «партызаны»
+                                </div>
+                                <div class="blog__article-date">
+                                    2 марта 2021
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="blog__article blog__article-last">
+                                <div class="blog__article-img">
+                                    <img src="img/blog/blog-article-3.jpg" alt="article">
+                                </div>
+                                <div class="blog__article-title">
+                                    Президентом подписан указ о весеннем призыве на срочную военную службу...
+                                    <!-- службу в резерве с 20 февраля по 31 мая 2021 года -->
+                                </div>
+                                <div class="blog__article-date">
+                                    31 декабря 2021
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="blog__articles-inner">
+                        <a href="#">
+                            <div class="blog__articles-inner__btn">
+                                Все новости
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------
+                                                                
+                                                                        Footer
+                                                                
+                                                                ------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <p>
+                    Перепечатка фотографий и текста (целиком и частично) разрешена
+                    только при наличии активной ссылки на сайт povestka.by
+                </p>
+            </div>
+            <div class="footer__nav">
+                <div class="row">
+                    <div class="col-md-6 col-lg-2 offset-lg-2">
+                        <div class="footer__nav-item">
+                            <a href="#">Книга памяти</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="footer__nav-item">
+                            <a href="#">Справочный раздел</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="footer__nav-item">
+                            <a href="#">Чем я могу помочь?</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="footer__nav-item">
+                            <a href="#">Отказ от ответсвенности</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <p>
+                    По вопросам сотрудничества и рекламы: <span><a
+                            href="mailto:info@povestka.by">info@povestka.by</a></span>
+                </p>
+            </div>
+            <div class="row footer__copiright">
+                <p>
+                    © 2013-2021 Центр прав призывника
+                </p>
+            </div>
+
+            <!-- Бренды -->
+
+            <div class="footer__credits">
+                <div class="footer__credits-item">
+                    <img src="img/footer/visa.png" alt="">
+                </div>
+                <div class="footer__credits-item">
+                    <img src="img/footer/verif-visa.png" alt="">
+                </div>
+                <div class="footer__credits-item">
+                    <img src="img/footer/mastercard.png" alt="">
+                </div>
+                <div class="footer__credits-item">
+                    <img src="img/footer/secure-mastercard.png" alt="">
+                </div>
+                <div class="footer__credits-item">
+                    <img src="img/footer/belkart.png" alt="">
+                </div>
+                <div class="footer__credits-item">
+                    <img src="img/footer/bepaid.png" alt="">
+                </div>
+                <div class="footer__credits-item">
+                    <img src="img/footer/mtbank.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Slick slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- Bootstrap5 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
